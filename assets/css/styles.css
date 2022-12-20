@@ -1,5 +1,5 @@
 body{
-    background-image:url(/assets/img/fondo2.jpg);
+    background-image:url(/assets/img/fondo4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -7,7 +7,6 @@ body{
 
 /* estilo para el banner */
 #fotoBanner{
-   text-align: center;
    border-radius: 3%;
    margin: 2% 6% 2% 6%;
 }
@@ -30,11 +29,12 @@ body{
     border: 2 solid black;
     font-family: 'Heebo', sans-serif;
     font-family: 'Rubik Spray Paint', cursive;
-    color: black
+    color: black;
+    margin: 2%;
 }
 .textoSobreMi{
-    color:black;
-    font-size: large
+    color:white;
+    font-size: 25px;
 }
 
 <style> @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Rubik+Spray+Paint&display=swap'); </style>
