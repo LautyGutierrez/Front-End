@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pongo el link de bootstap del css-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- ponemos el Font awesone-->
+    <script src="https://kit.fontawesome.com/68867d2582.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+
+    <title>Index</title>
+</head>
+
+<body>
+    <!-- sección para navbar -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="_blank">
+                <img class="logoAP" src="assets/img/logoAP.png" alt="logoAP">
+              </a>
+
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                
+                    <a href="https://github.com/LautyGutierrez/" target="_blank">
+                        <button type="button" class="btn btn-light"> 
+                          <i class="fa-brands fa-github"></i> 
+                        </button>
+                    </a>
+               
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Login
+              </button>
+              </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- seccion para Banner-->
+    <section id="banner">
+      <div class="caja">
+        <img id="fotoBanner" src="assets/img/banner1.jpeg" alt="banner" height="400" width="1200">
+        <div class="texto1"> Full Stack Developer Jr </div>
+      </div>
+      <hr>
+    </section>
+
+    <!-- sección para Sobre mí -->
+    <section id="sobre-mi">
+      <h2 class="sobre">Sobre mí</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="assets/img/fotoRandom.jpg" alt="mi foto">
+          </div>
+          <div class="col order-5">
+            <p class="textoSobreMi"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum provident doloremque accusamus repudiandae. Neque fuga necessitatibus sequi illo laboriosam, tempora quisquam deserunt facere? Rerum impedit saepe molestias laudantium beatae voluptatibus. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  MODALES -->
+    <!--Modal login-->
+  <div class="modal fade" id="loginModal" tabindex="-1"  aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Iniciar Secion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+              </div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--pongo el boostrap de html-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
