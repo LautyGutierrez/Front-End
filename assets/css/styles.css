@@ -1,10 +1,12 @@
-body{
-    background-image:url(/assets/img/fondo4.jpg);
+/*body{
+    background-image:url(/assets/img/fondoCeleste.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}*/
+body{
+    background-color: rgba(0, 115, 111, 0.894);
 }
-
 /* estilo para el banner */
 #fotoBanner{
    border-radius: 3%;
@@ -27,8 +29,8 @@ body{
 .sobre{
     text-align: center;
     border: 2 solid black;
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Rubik Spray Paint', cursive;
+    /*font-family: 'Rubik Spray Paint', cursive;*/
+    font-family: 'Press Start 2P', cursive;
     color: black;
     margin: 2%;
 }
@@ -37,4 +39,5 @@ body{
     font-size: 25px;
 }
 
+<style> @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); </style>
 <style> @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Rubik+Spray+Paint&display=swap'); </style>
